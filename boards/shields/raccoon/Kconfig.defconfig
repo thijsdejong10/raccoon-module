@@ -1,0 +1,21 @@
+if SHIELD_RACCOON_LEFT
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
+
+config ZMK_KEYBOARD_NAME
+    default "Raccoon"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_RACCOON_LEFT || SHIELD_RACCOON_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

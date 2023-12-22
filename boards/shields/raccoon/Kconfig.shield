@@ -1,0 +1,5 @@
+config SHIELD_RACCOON_LEFT
+    def_bool $(shields_list_contains,raccoon_left)
+
+config SHIELD_RACCOON_RIGHT
+    def_bool $(shields_list_contains,raccoon_right)
