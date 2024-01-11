@@ -111,7 +111,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
-                                 &keyrepeat  &sl 2      &kp SPACE      &kp ENTER  &to 0      &kp LC(LS(LALT)) 
+                                 &key_repeat  &sl 2      &kp SPACE      &kp ENTER  &to 0      &kp LC(LS(LALT)) 
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
