@@ -44,7 +44,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      HRMR(M,        COMMA,       DOT,    &kp FSLH)
         //╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
-                                 &key_repeat  &lt 2      &kp SPACE      &kp ENTER  &lt 1      &kp LGUI 
+                                 &key_repeat  &lt 2      &kp SPACE      &kp ENTER  &lt 1      &kp RGUI 
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
@@ -56,13 +56,13 @@
             &trans     &kp LBKT   &kp LBRC   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  `       │
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT       &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &kp SEMI
+            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  *       │  -       │  =       │  \       │          │   │  &       │  _       │  +       │  │       │          │
             &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH 	&trans			&kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
         //╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
                                   &trans     &lt 2		&trans         &trans     &lt 1       &trans
-        //                      ╰──────────┴──────────┴──────────╯a   ╰──────────┴──────────┴──────────╯
+        //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
 		
