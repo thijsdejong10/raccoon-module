@@ -18,7 +18,7 @@
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
-            bindings = <&kp>, <&kp>;
+            bindings = <&sk>, <&kp>;
         };
     };
 
@@ -42,9 +42,9 @@
             HRML(A,        S,         D,         F)     &kp G          &kp H      &kp J      &kp K     &kp L     &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      HRMR(M,        COMMA,       DOT,    &kp FSLH)
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
-                                 &key_repeat  &mo 2      &kp SPACE      &kp ENTER  &mo 1      &kp LGUI 
+                                 &key_repeat  &mo 2      &kp SPACE      &kp ENTER  &mo 1      &kp LC(LS(LALT)) 
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
@@ -62,7 +62,7 @@
             &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH 	&trans			&kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
         //╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
                                   &trans     &mo 2		&trans         &trans     &mo 1       &trans
-        //                      ╰──────────┴──────────┴──────────╯a   ╰──────────┴──────────┴──────────╯
+        //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
 		
@@ -111,7 +111,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
-                                 &key_repeat  &sl 2      &kp SPACE      &kp ENTER  &to 0      &kp LC(LS(LALT)) 
+                                 &key_repeat  &mo 2      &kp SPACE      &kp ENTER  &to 0      &kp LC(LS(LALT)) 
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
